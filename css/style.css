@@ -1318,6 +1318,11 @@ body:after {
   border-color: #000;
 }
 
+#contact-section,
+#services-section {
+  background-color: #f1fbff;
+}
+
 #contact-section .map iframe {
   flex: 1 1 45rem;
   width: 100%;
@@ -1326,13 +1331,13 @@ body:after {
 }
 
 @media (max-width: 450px) {
-  .list-unstyled {
+  .info {
     margin-top: 50px;
   }
 }
 
 @media (max-width: 990px) {
-  .list-unstyled {
+  .info {
     margin-top: 50px;
   }
 }
@@ -1354,7 +1359,7 @@ body:after {
   color: #000;
 } */
 
-footer.site-section.footer::before {
+/* footer.site-section.footer::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1372,4 +1377,4 @@ footer.site-section.footer {
   height: 10vh;
   background-color: #0a0a0a7d !important;
   background-size: cover;
-}
+} */
