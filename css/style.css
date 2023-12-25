@@ -20,6 +20,13 @@ body {
   margin-bottom: -500px;
 }
 
+@media (max-width: 770px) {
+  #about-section {
+    padding-top: 200px;
+    margin-bottom: 100px;
+  }
+}
+
 #services-section h3 {
   font-size: 1.5rem;
 }
@@ -83,6 +90,19 @@ body {
   left: 30px;
   top: 950px;
   z-index: 10;
+}
+
+@media (max-width: 1670px) {
+  .disc img {
+    left: 0px;
+    top: 1600px;
+  }
+}
+
+@media (max-width: 770px) {
+  .disc img {
+    display: none;
+  }
 }
 
 .hub img {
