@@ -15,6 +15,11 @@ body {
   font-size: 1.5rem;
 }
 
+#about-section {
+  padding-top: 200px;
+  margin-bottom: -500px;
+}
+
 #services-section h3 {
   font-size: 1.5rem;
 }
@@ -71,6 +76,13 @@ body {
 
 #services-section button .btn {
   font-weight: 900 !important;
+}
+
+.disc img {
+  position: relative;
+  left: 30px;
+  top: 950px;
+  z-index: 10;
 }
 
 .hub img {
